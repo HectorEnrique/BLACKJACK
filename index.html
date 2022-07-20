@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <title>BlackJack</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__contenedor">
+        <h1 class="header__titulo">BlackJack</h1>
+      </div>
+    </header>
+    <div class="botones">
+      <div class="botones__contenedor">
+        <button class="botones__boton">Nuevo Juego</button>
+        <button class="botones__boton">Pedir carta</button>
+        <button class="botones__boton">Detener</button>
+      </div>
+    </div>
+
+    <div class="jugadores">
+      <div class="jugadores__contenedor">
+
+        <div class="jugador mt-5">
+          <h2 class="jugador__heading">Jugador 1 - <small>0</small></h2>
+          <div id="jugador__cartas">
+            <img src="assets/cartas/2C.png" class="carta" alt="imagen carta" />
+            <!-- <img src="assets/cartas/2C.png" class="carta" alt="imagen carta" /> -->
+            <!-- <img src="assets/cartas/2C.png" class="carta" alt="imagen carta" /> -->
+            <!-- <img src="assets/cartas/2C.png" class="carta" alt="imagen carta" /> -->
+          </div>
+        </div>
+
+        <div class="computadora mt-5">
+          <h2 class="computadora__heading">Computadora 1 - <small>0</small></h2>
+          <div id="computadora__cartas">
+            <img src="assets/cartas/10C.png" class="carta" alt="imagen carta" />
+            <!-- <img src="assets/cartas/10C.png" class="carta" alt="imagen carta" /> -->
+            <!-- <img src="assets/cartas/10C.png" class="carta" alt="imagen carta" /> -->
+            <!-- <img src="assets/cartas/10C.png" class="carta" alt="imagen carta" /> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+      <script src="assets/js/underscore.js"></script>
+      <script src="assets/js/juego.js"></script>
+  </body>
+</html>
