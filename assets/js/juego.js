@@ -121,7 +121,6 @@ btnNuevo.addEventListener("click", () => {
   small[1].innerText = 0;
   addCartasJugador.innerHTML = "";
   addCartasPc.innerHTML = "";
-
   btnPedir.disabled = false;
   btnDetener.disabled = false;
 });
